@@ -4,7 +4,6 @@ export default defineConfig({
   outputPath: 'docs-dist',  // 默认静态资源输出目录
   base: '/hqhui/',        // 若仓库名为 username.github.io，则设为 '/'
   publicPath: '/hqhui/',  // 资源路径前缀，与 base 一致
-  history: { type: 'hash' }, // 解决 GitHub Pages 路由 404 问题
   themeConfig: {
     name: 'HQHUI',
     editLink: false,
