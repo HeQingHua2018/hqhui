@@ -51,6 +51,10 @@
           {
             "type": "test",
             "hidden": true
+          },
+          {
+            "type": "release",
+            "hidden": true
           }
         ]
       }

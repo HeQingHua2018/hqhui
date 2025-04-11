@@ -1,10 +1,4 @@
----
-title: 更新日志
-order: 1
-toc: menu
----
-
-## 发布周期
+# Changelog
 
 ## <small>1.0.1 (2025-04-11)</small>
 
