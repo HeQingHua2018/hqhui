@@ -2,29 +2,28 @@
   "name": "hqhui",
   "version": "0.0.1",
   "description": "A react library developed with dumi",
+  "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "start": "npm run dev",
-    "dev": "dumi dev",
     "build": "father build",
     "build:watch": "father dev",
+    "commit": "cz",
+    "dev": "dumi dev",
     "docs:build": "dumi build",
     "docs:preview": "dumi preview",
-    "prepare": "husky install && dumi setup",
     "doctor": "father doctor",
     "lint": "npm run lint:es && npm run lint:css",
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
-    "prepublishOnly": "father doctor && npm run build"
+    "prepare": "husky install && dumi setup",
+    "prepublishOnly": "father doctor && npm run build",
+    "release": "release-it",
+    "start": "npm run dev"
   },
-  "authors": [
-    "1668831925@qq.com"
-  ],
-  "license": "MIT",
-  "files": [
-    "dist"
-  ],
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -47,19 +46,24 @@
       "prettier --parser=typescript --write"
     ]
   },
-  "publishConfig": {
-    "access": "public"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
   },
-  "peerDependencies": {
-    "react": ">=16.9.0",
-    "react-dom": ">=16.9.0"
+  "dependencies": {
+    "@ant-design/charts": "^2.0.0",
+    "echarts": "^5.6.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@release-it/conventional-changelog": "^10.0.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@umijs/lint": "^4.0.0",
+    "commitizen": "^4.3.1",
+    "cz-customizable": "^7.4.0",
     "dumi": "^2.4.13",
     "eslint": "^8.23.0",
     "father": "^4.1.0",
@@ -70,10 +74,17 @@
     "prettier-plugin-packagejson": "^2.2.18",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "release-it": "^18.1.2",
     "stylelint": "^14.9.1"
   },
-  "dependencies": {
-    "@ant-design/charts": "^2.0.0",
-    "echarts": "^5.6.0"
-  }
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "1668831925@qq.com"
+  ]
 }
