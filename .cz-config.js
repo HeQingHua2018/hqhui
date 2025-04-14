@@ -19,14 +19,14 @@ module.exports = {
   // 提交时的消息步骤配置
   messages: {
     type: '请选择提交类型:', // 提示用户选择提交类型
-    customScope: '请输入修改范围(可选):', // 提示用户输入修改范围（可选）
+    // scope: '请输入修改范围(可选):', // 提示用户输入修改范围（可选）
     subject: '请简要描述提交(必填):', // 提示用户输入提交描述（必填）
     body: '请输入详细描述(可选):', // 提示用户输入详细描述（可选）
     footer: '请输入要关闭的issue(可选):', // 提示用户输入要关闭的issue（可选）
     confirmCommit: '确认使用以上信息提交？(y/n/e/h)', // 确认提交信息
   },
   // 跳过的问题配置
-  skipQuestions: ['customScope', 'body', 'footer'], // 跳过修改范围、详细描述和关闭issue的提问
+  skipQuestions: ['scope', 'body', 'footer'], // 跳过修改范围、详细描述和关闭issue的提问
   // 提交描述的文字长度限制，默认为72字符
   subjectLimit: 72,
 };
