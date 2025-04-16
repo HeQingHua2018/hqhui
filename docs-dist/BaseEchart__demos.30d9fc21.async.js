@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhqhui=self.webpackChunkhqhui||[]).push([[311],{32996:function(_,t,E){E.r(t);var a=E(67294),n=E(2313),u=E(20840),h=E(85893);t.default=function(){return(0,h.jsx)(n.BaseEchart,{option:u.option})}}}]);
