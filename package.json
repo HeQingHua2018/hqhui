@@ -1,11 +1,11 @@
 {
   "name": "hqhui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react library developed with dumi",
   "homepage": "https://heqinghua2018.github.io/hqhui/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hqhui/hqhui-react.git"
+    "url": "git@github.com:HeQingHua2018/hqhui.git"
   },
   "license": "MIT",
   "module": "dist/index.js",
