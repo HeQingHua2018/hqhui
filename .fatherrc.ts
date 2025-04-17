@@ -13,14 +13,5 @@ export default defineConfig({
       },
       'antd',
     ],
-    [
-      'babel-plugin-import',
-      {
-        libraryName: '@ant-design/charts',
-        libraryDirectory: 'es',
-        style: true,
-      },
-      '@ant-design/charts',
-    ],
   ],
 });

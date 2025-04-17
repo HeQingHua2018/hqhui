@@ -1,6 +1,6 @@
 {
   "name": "hqhui",
-  "version": "1.0.1",
+  "version": "1.0.13",
   "description": "A react library developed with dumi",
   "homepage": "https://heqinghua2018.github.io/hqhui/",
   "repository": {
@@ -51,6 +51,9 @@
     "commitizen": {
       "path": "./node_modules/cz-customizable"
     }
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.27.0"
   },
   "devDependencies": {
     "@ant-design/charts": "^2.0.0",

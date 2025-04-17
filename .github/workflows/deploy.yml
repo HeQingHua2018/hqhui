@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'  # 推荐使用 LTS 版本
-
+        registry-url: 'https://registry.npmmirror.com'  # 替换成npm镜像
     - name: Install Dependencies
       run: npm install
 
