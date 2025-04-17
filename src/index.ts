@@ -2,9 +2,8 @@
  * 组件栏目
  */
 export { default as Button } from './components/Button';
-export { default as Foo} from './components/Foo';
-export { default as StructureChart } from './components/StructureChart';
-export { default as BaseEchart } from './components/BaseEchart';
+export { default as LineChart } from './components/LineChart';
+export { default as PrimaryButton } from './components/PrimaryButton';
 /**
  * 工具库
  */

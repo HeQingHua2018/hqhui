@@ -6,7 +6,7 @@ toc: menu
 
 ## 发布周期
 
-## <small>1.0.2 (2025-04-14)</small>
+## <small>1.0.1 (2025-04-14)</small>
 
 - chore: 修改 commit 配置文件 ([c5f7de8](https://github.com/HeQingHua2018/hqhui/commit/c5f7de8))
 - chore: commit 配置文件修改 ([3fcd183](https://github.com/HeQingHua2018/hqhui/commit/3fcd183))
@@ -17,7 +17,7 @@ toc: menu
 - feat(custom): 配置文件修改 ([0d307bd](https://github.com/HeQingHua2018/hqhui/commit/0d307bd))
 - feat(custom): 修改 git 提交配置文件 ([2d128e1](https://github.com/HeQingHua2018/hqhui/commit/2d128e1))
 
-## <small>1.0.1 (2025-04-11)</small>
+## <small>1.0.0 (2025-04-11)</small>
 
 - fix(custom): 配置修改 ([b066a2f](https://github.com/HeQingHua2018/hqhui/commit/b066a2f))
 - chore: release v1.0.1 ([c43e740](https://github.com/HeQingHua2018/hqhui/commit/c43e740))

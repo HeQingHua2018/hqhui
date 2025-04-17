@@ -29,4 +29,5 @@ export default defineConfig({
       { type: 'util', dir: 'src/utils' },
     ],
   },
+  exportStatic: false,
 });

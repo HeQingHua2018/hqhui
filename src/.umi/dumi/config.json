@@ -1,0 +1,69 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/components",
+          "title": "组件总览",
+          "meta": {
+            "order": 1
+          }
+        },
+        {
+          "path": "/utils",
+          "title": "介绍",
+          "meta": {
+            "order": 1
+          }
+        },
+        {
+          "path": "/",
+          "title": "Index",
+          "meta": {}
+        },
+        {
+          "title": "Changelogs",
+          "path": "/changelogs",
+          "meta": {},
+          "children": [
+            {
+              "path": "/changelogs",
+              "title": "更新日志",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
+        },
+        {
+          "title": "Guide",
+          "path": "/guide",
+          "meta": {},
+          "children": [
+            {
+              "path": "/guide",
+              "title": "介绍",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {},
+  "title": "hqhui",
+  "mode": "doc",
+  "repository": {
+    "url": "https://github.com/HeQingHua2018/hqhui",
+    "branch": "master"
+  },
+  "theme": {}
+}
