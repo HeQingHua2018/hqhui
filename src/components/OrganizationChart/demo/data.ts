@@ -3,7 +3,7 @@ export const data = {
     {
       id: '0',
       data: {
-        email: 'ejoplin@yoyodyne.com',
+        email: 'ejoplin@mail.com',
         fax: '555-0101',
         name: 'Eric Joplin',
         phone: '555-0100',
@@ -14,7 +14,7 @@ export const data = {
     {
       id: '1',
       data: {
-        email: 'groberts@yoyodyne.com',
+        email: 'groberts@mail.com',
         fax: '555-0101',
         name: 'Gary Roberts',
         phone: '555-0100',
@@ -25,7 +25,7 @@ export const data = {
     {
       id: '2',
       data: {
-        email: 'aburns@yoyodyne.com',
+        email: 'aburns@mail.com',
         fax: '555-0103',
         name: 'Alex Burns',
         phone: '555-0102',
@@ -36,7 +36,7 @@ export const data = {
     {
       id: '4',
       data: {
-        email: 'msmith@yoyodyne.com',
+        email: 'msmith@mail.com',
         fax: '555-0115',
         name: 'Mary Smith',
         phone: '555-0114',
@@ -47,7 +47,7 @@ export const data = {
     {
       id: '5',
       data: {
-        email: 'bwhite@yoyodyne.com',
+        email: 'bwhite@mail.com',
         fax: '555-0117',
         name: 'Bob White',
         phone: '555-0116',
@@ -58,7 +58,7 @@ export const data = {
     {
       id: '6',
       data: {
-        email: 'jjones@yoyodyne.com',
+        email: 'jjones@mail.com',
         fax: '555-0119',
         name: 'John Jones',
         phone: '555-0118',
@@ -69,7 +69,7 @@ export const data = {
     {
       id: '7',
       data: {
-        email: 'klee@yoyodyne.com',
+        email: 'klee@mail.com',
         fax: '555-0121',
         name: 'Karen Lee',
         phone: '555-0120',
@@ -80,7 +80,7 @@ export const data = {
     {
       id: '8',
       data: {
-        email: 'dmiller@yoyodyne.com',
+        email: 'dmiller@mail.com',
         fax: '555-0123',
         name: 'David Miller',
         phone: '555-0122',
@@ -91,7 +91,7 @@ export const data = {
     {
       id: '9',
       data: {
-        email: 'rjoe@yoyodyne.com',
+        email: 'rjoe@mail.com',
         fax: '555-0125',
         name: 'Rachel Joe',
         phone: '555-0124',
@@ -102,7 +102,7 @@ export const data = {
     {
       id: '10',
       data: {
-        email: 'tadams@yoyodyne.com',
+        email: 'tadams@mail.com',
         fax: '555-0127',
         name: 'Tom Adams',
         phone: '555-0126',
@@ -113,7 +113,7 @@ export const data = {
     {
       id: '11',
       data: {
-        email: 'wbrown@yoyodyne.com',
+        email: 'wbrown@mail.com',
         fax: '555-0129',
         name: 'Will Brown',
         phone: '555-0128',
@@ -124,7 +124,7 @@ export const data = {
     {
       id: '12',
       data: {
-        email: 'dmartin@yoyodyne.com',
+        email: 'dmartin@mail.com',
         fax: '555-0131',
         name: 'Diana Martin',
         phone: '555-0130',
@@ -135,7 +135,7 @@ export const data = {
     {
       id: '13',
       data: {
-        email: 'jwilson@yoyodyne.com',
+        email: 'jwilson@mail.com',
         fax: '555-0133',
         name: 'Jim Wilson',
         phone: '555-0132',
@@ -146,7 +146,7 @@ export const data = {
     {
       id: '14',
       data: {
-        email: 'charris@yoyodyne.com',
+        email: 'charris@mail.com',
         fax: '555-0135',
         name: 'Cathy Harris',
         phone: '555-0134',
@@ -157,7 +157,7 @@ export const data = {
     {
       id: '15',
       data: {
-        email: 'eblack@yoyodyne.com',
+        email: 'eblack@mail.com',
         fax: '555-0137',
         name: 'Evan Black',
         phone: '555-0136',
@@ -168,7 +168,7 @@ export const data = {
     {
       id: '16',
       data: {
-        email: 'ywang@yoyodyne.com',
+        email: 'ywang@mail.com',
         fax: '555-0139',
         name: 'Yvonne Wang',
         phone: '555-0138',
@@ -179,7 +179,7 @@ export const data = {
     {
       id: '17',
       data: {
-        email: 'jsanchez@yoyodyne.com',
+        email: 'jsanchez@mail.com',
         fax: '555-0141',
         name: 'Juan Sanchez',
         phone: '555-0140',
@@ -190,7 +190,7 @@ export const data = {
     {
       id: '18',
       data: {
-        email: 'mjones@yoyodyne.com',
+        email: 'mjones@mail.com',
         fax: '555-0143',
         name: 'Molly Jones',
         phone: '555-0142',
@@ -201,7 +201,7 @@ export const data = {
     {
       id: '19',
       data: {
-        email: 'rking@yoyodyne.com',
+        email: 'rking@mail.com',
         fax: '555-0145',
         name: 'Richard King',
         phone: '555-0144',

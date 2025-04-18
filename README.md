@@ -1,7 +1,6 @@
 # hqhui
 
 [![NPM version](https://img.shields.io/npm/v/hqhui.svg?style=flat)](https://npmjs.org/package/hqhui)
-[![NPM downloads](http://img.shields.io/npm/dm/hqhui.svg?style=flat)](https://npmjs.org/package/hqhui)
 
 A react library developed with dumi
 
