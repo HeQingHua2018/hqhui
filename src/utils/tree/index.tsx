@@ -1,9 +1,30 @@
 //  TreeNode 类型定义
 interface TreeNode {
+  /**
+   * 唯一标识
+   */
   key: string;
+  /**
+   * 值，需唯一
+   */
+  value?: string;
+  /**
+   * 标题
+   */
+  title: string;
+  /**
+   * 父节点ID
+   */
   parent?: string;
-  [key: string]: any;
+  /**
+   * 描述
+   */
+  description?: string;
+  /**
+   * 子节点
+   */
   children?: TreeNode[];
+  [key: string]: any;
 }
 
 /**
@@ -112,7 +133,7 @@ function findNodeByValue<T extends TreeNode>(
   treeNodes: T[],
   value: string,
 ): T | undefined {
-  return findNode(treeNodes, value);
+  return findNode(treeNodes, value, 'value');
 }
 
 /**
@@ -150,7 +171,7 @@ function getParentByValue<T extends TreeNode>(
   value: string,
   treeNodes: T[],
 ): T | undefined {
-  return getParent(value, treeNodes);
+  return getParent(value, treeNodes, 'value');
 }
 
 export {
