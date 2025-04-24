@@ -1,7 +1,7 @@
 import {
   OrganizationChart,
   type OrganizationChartOptions,
-} from '@ant-design/graphs';
+} from '@ant-design/charts';
 import React from 'react';
 
 export default (props: OrganizationChartOptions) => {
