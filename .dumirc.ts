@@ -1,8 +1,8 @@
 import { defineConfig } from 'dumi';
 import path from 'path';
 const isProd = process.env.HQH_ENV === 'production';
-console.log('HQH_ENV:', process.env.HQH_ENV);
-console.log('isProd:', isProd);
+// console.log('HQH_ENV:', process.env.HQH_ENV);
+// console.log('isProd:', isProd);
 export default defineConfig({
   outputPath: 'docs-dist', // 默认静态资源输出目录
   base: isProd ? '/hqhui/' : '/', // 若仓库名为 username.github.io，则设为 '/'

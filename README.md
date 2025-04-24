@@ -4,9 +4,11 @@
 
 A react library developed with dumi
 
-## Usage
+## 安装
 
-TODO
+```
+$ npm install hqhui
+```
 
 ## Options
 
