@@ -20,7 +20,7 @@
     "commit": "cz",
     "dev": "dumi dev",
     "dev:prod": "dumi dev",
-    "docs:build": "cross-env HQH_ENV=production dumi build",
+    "docs:build": "cross-env HQH_ENV=production dumi build --verbose",
     "docs:build:dev": "cross-env HQH_ENV=development dumi build",
     "docs:preview": "dumi preview",
     "doctor": "father doctor",

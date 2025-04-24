@@ -36,7 +36,7 @@ export interface AvatarProps {
   /**
    * @description 合成图片的文件名
    * @type string
-   * @default avatar-xxx.png
+   * @default 'avatar-xxx'
    */
   fileName?: string;
 }
@@ -45,7 +45,7 @@ const AvatarGenerator: React.FC<AvatarProps> = ({
   hatArr = [hat0, hat1, hat2, hat3, hat4, hat5, hat6, hat7, hat8, hat9],
   width = 200,
   height = 200,
-  fileName = `avatar-${getUUID()}.png`,
+  fileName = `avatar-${getUUID()}`,
 }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [canvas, setCanvas] = useState<fabric.Canvas | null>(null);
