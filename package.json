@@ -1,0 +1,101 @@
+{
+  "name": "hqhui",
+  "version": "1.0.0",
+  "description": "A react library developed with dumi",
+  "homepage": "https://heqinghua2018.github.io/hqhui/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:HeQingHua2018/hqhui.git"
+  },
+  "license": "MIT",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "father build",
+    "build:watch": "father dev",
+    "changelog": "node ./scripts/changelog.js",
+    "commit": "cz",
+    "dev": "dumi dev",
+    "dev:prod": "dumi dev",
+    "docs:build": "cross-env HQH_ENV=production dumi build",
+    "docs:build:dev": "cross-env HQH_ENV=development dumi build",
+    "docs:preview": "dumi preview",
+    "doctor": "father doctor",
+    "lint": "npm run lint:es && npm run lint:css",
+    "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
+    "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
+    "prepare": "husky install && dumi setup",
+    "prepublishOnly": "father doctor && npm run build",
+    "release": "release-it",
+    "start": "npm run dev"
+  },
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.{css,less}": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.27.0",
+    "fabric": "^5.3.0"
+  },
+  "devDependencies": {
+    "@ant-design/charts": "^2.0.0",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@release-it/conventional-changelog": "^10.0.1",
+    "@types/fabric": "^5.3.10",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@umijs/lint": "^4.0.0",
+    "antd": "^5.24.7",
+    "babel-plugin-import": "^1.13.8",
+    "commitizen": "^4.3.1",
+    "cross-env": "^7.0.3",
+    "cz-customizable": "^7.4.0",
+    "dumi": "^2.4.13",
+    "eslint": "^8.23.0",
+    "father": "^4.1.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^3.0.0",
+    "prettier-plugin-packagejson": "^2.2.18",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "release-it": "^19.0.1",
+    "stylelint": "^14.9.1"
+  },
+  "peerDependencies": {
+    "@ant-design/charts": "^2.0.0",
+    "antd": ">=5.4.2",
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "1668831925@qq.com"
+  ],
+  "slideEffects": false
+}

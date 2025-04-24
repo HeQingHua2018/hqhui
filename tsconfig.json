@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "hqhui": ["src"],
+      "hqhui/*": ["src/*", "*"],
+      "@assets/*": ["src/assets/*"]
+    }
+  },
+  "include": [".dumirc.ts", "src/**/*", "global.d.ts"]
+}
