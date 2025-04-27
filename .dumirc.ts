@@ -1,12 +1,15 @@
 import { defineConfig } from 'dumi';
 import path from 'path';
-const isProd = process.env.HQH_ENV === 'production';
+// const isProd = process.env.HQH_ENV === 'production';
 // console.log('HQH_ENV:', process.env.HQH_ENV);
 // console.log('isProd:', isProd);
 export default defineConfig({
   outputPath: 'docs-dist', // 默认静态资源输出目录
-  base: isProd ? '/hqhui/' : '/', // 若仓库名为 username.github.io，则设为 '/'
-  publicPath: isProd ? '/hqhui/' : '/', // 资源路径前缀，与 base 一致
+  // base: isProd ? '/hqhui/' : '/', // 若仓库名为 username.github.io，则设为 '/'
+  // publicPath: isProd ? '/hqhui/' : '/', // 资源路径前缀，与 base 一致
+  title: 'HQHUI', // 站点标题
+  base: '/',
+  publicPath: '/',
   themeConfig: {
     name: 'HQHUI',
     editLink: false,
