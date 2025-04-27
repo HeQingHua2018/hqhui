@@ -5,7 +5,7 @@
   "homepage": "http://ui.chloehe.cn/",
   "repository": {
     "type": "git",
-    "url": "git@github.com:HeQingHua2018/hqhui.git"
+    "url": "git+ssh://git@github.com/HeQingHua2018/hqhui.git"
   },
   "license": "MIT",
   "module": "dist/index.js",
