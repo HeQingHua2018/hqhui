@@ -26,6 +26,9 @@ jobs:
     - name: Build Project
       run: npm run docs:build  # 执行 Dumi 构建命令
 
+    - name: Create CNAME file
+      run: echo "ui.chloehe.cn" > docs-dist/CNAME  # 替换为你的自定义域名
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
