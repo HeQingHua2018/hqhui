@@ -37,3 +37,5 @@ export {
   isTrue,
   isUrl,
 } from './utils/validation';
+
+export { default as groupBy } from './utils/groupBy';
