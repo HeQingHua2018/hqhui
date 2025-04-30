@@ -8,6 +8,7 @@ export { default as OrganizationChart } from './components/OrganizationChart';
 export { default as PrimaryButton } from './components/PrimaryButton';
 export { default as SpriteAnimation } from './components/SpriteAnimation';
 export { default as TextForBg } from './components/TextForBg';
+export { default as WangEditor } from './components/WangEditor';
 /**
  * 工具库
  */
