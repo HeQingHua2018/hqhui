@@ -42,6 +42,7 @@ $ npm run doctor
 # 打包 npm 流程
 
 ```
+修改版本号
 npm run build
 npm run prepublishOnly
 npm  publish
