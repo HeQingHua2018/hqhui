@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhqhui=self.webpackChunkhqhui||[]).push([[844],{27481:function(t,n,u){u.r(n);var E=u(97841),s=u(67294),h=u(85893);n.default=function(){return(0,h.jsx)(E.PrimaryButton,{children:"\u9ED8\u8BA4\u6309\u94AE"})}}}]);

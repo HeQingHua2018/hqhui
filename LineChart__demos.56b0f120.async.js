@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhqhui=self.webpackChunkhqhui||[]).push([[830],{77923:function(o,u,_){_.r(u);var e=_(97857),h=_.n(e),n=_(97841),t=_(67294),s=_(36671),E=_(85893);u.default=function(){return(0,E.jsx)(n.LineChart,h()({},s.config))}}}]);

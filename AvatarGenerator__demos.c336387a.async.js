@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhqhui=self.webpackChunkhqhui||[]).push([[730],{2032:function(a,u,n){n.r(u),n.d(u,{default:function(){return E}});var s=n(67294),t=n(97841),h=n(85893);function E(){return(0,h.jsx)(t.AvatarGenerator,{})}}}]);

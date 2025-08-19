@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhqhui=self.webpackChunkhqhui||[]).push([[27],{72425:function(r,e,_){_.r(e),_.d(e,{default:function(){return s}});var u=_(97857),n=_.n(u),h=_(97841),m=_(67294),t=_(85893);function s(){var o={spriteImageUrl:_(13253),frameCount:26,frameWidth:200,frameHeight:200};return(0,t.jsx)(h.SpriteAnimation,n()({},o))}}}]);
