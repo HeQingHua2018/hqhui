@@ -49,13 +49,14 @@ const DynamicNode: React.FC<DynamicNodeProps> = ({
   callValidateData,
   nodeType,
 }: DynamicNodeProps) => {
-  const [selectedNodeType, setSelectedNodeType] = useState<string>(
-    nodeType || 'prompt',
-  );
+  const [selectedNodeType, setSelectedNodeType] = useState<string>();
   const [nodeConfig, setNodeConfig] = useState<Record<string, any>>({});
   const [nodeSchemas, setNodeSchemas] = useState<Record<string, any>>(
     getNodeSchemas(),
   );
+  useEffect(() => {
+    setSelectedNodeType(nodeType ?? 'prompt');
+  }, [nodeType]);
   const [nodeTypes, setNodeTypes] = useState<
     { value: string; label: string }[]
   >(getNodeTypes());
