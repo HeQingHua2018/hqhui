@@ -48,7 +48,8 @@ group: # 分组
 
 ## API
 
-| 属性名           | 描述         | 类型                                  | 默认值 |
-| ---------------- | ------------ | ------------------------------------- | ------ |
-| callbackData     | 节点配置数据 | `(data: Record<string, any>) => void` | -      |
-| callValidateData | 节点校验数据 | `(data: Record<string, any>) => void` | -      |
+| 属性名           | 描述         | 类型                                  | 默认值   |
+| ---------------- | ------------ | ------------------------------------- | -------- |
+| callbackData     | 节点配置数据 | `(data: Record<string, any>) => void` | -        |
+| callValidateData | 节点校验数据 | `(data: Record<string, any>) => void` | -        |
+| nodeType         | 节点类型     | `string`                              | `prompt` |

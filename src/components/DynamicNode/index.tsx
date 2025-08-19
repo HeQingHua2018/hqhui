@@ -36,13 +36,22 @@ export interface DynamicNodeProps {
    *
    */
   callValidateData?: (data: Record<string, any>) => void;
+  /**
+   * @description 节点类型
+   * @type string
+   *
+   */
+  nodeType?: string;
 }
 
 const DynamicNode: React.FC<DynamicNodeProps> = ({
   callbackData,
   callValidateData,
+  nodeType,
 }: DynamicNodeProps) => {
-  const [selectedNodeType, setSelectedNodeType] = useState<string>();
+  const [selectedNodeType, setSelectedNodeType] = useState<string>(
+    nodeType || 'prompt',
+  );
   const [nodeConfig, setNodeConfig] = useState<Record<string, any>>({});
   const [nodeSchemas, setNodeSchemas] = useState<Record<string, any>>(
     getNodeSchemas(),
@@ -92,23 +101,25 @@ const DynamicNode: React.FC<DynamicNodeProps> = ({
 
   return (
     <>
-      <Card title="节点类型选择" style={{ marginBottom: '24px' }}>
-        <Space direction="vertical" size="middle">
-          <Select
-            value={selectedNodeType}
-            placeholder="请选择节点类型"
-            onChange={(value) => setSelectedNodeType(value)}
-            style={{ width: 240 }}
-            allowClear
-          >
-            {nodeTypes.map((type) => (
-              <Select.Option key={type.value} value={type.value}>
-                {type.label}
-              </Select.Option>
-            ))}
-          </Select>
-        </Space>
-      </Card>
+      {!nodeType && (
+        <Card title="节点类型选择" style={{ marginBottom: '24px' }}>
+          <Space direction="vertical" size="middle">
+            <Select
+              value={selectedNodeType}
+              placeholder="请选择节点类型"
+              onChange={(value) => setSelectedNodeType(value)}
+              style={{ width: 240 }}
+              allowClear
+            >
+              {nodeTypes.map((type) => (
+                <Select.Option key={type.value} value={type.value}>
+                  {type.label}
+                </Select.Option>
+              ))}
+            </Select>
+          </Space>
+        </Card>
+      )}
 
       {currentSchema && (
         <>

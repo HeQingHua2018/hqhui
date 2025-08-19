@@ -39,6 +39,14 @@ $ npm run docs:preview
 $ npm run doctor
 ```
 
+# 打包 npm 流程
+
+```
+npm run build
+npm run prepublishOnly
+npm  publish
+```
+
 ## LICENSE
 
 MIT
