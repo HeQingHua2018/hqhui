@@ -21,9 +21,15 @@ export default defineConfig({
       { title: '使用指南', link: '/guide' },
       { title: '组件', link: '/components' },
       { title: '工具', link: '/utils' },
-      { title: '更新日志', link: '/changelogs' },
+      { title: '更新日志', link: '/changelog' },
     ],
-    metas: [],
+    hd: {
+      rules: [
+        { maxWidth: 375, mode: 'vw', options: [100, 750] },
+        { minWidth: 376, maxWidth: 750, mode: 'vw', options: [100, 1500] },
+      ],
+    },
+    deviceWidth: 375,
   },
   apiParser: {},
   alias: {
