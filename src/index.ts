@@ -11,16 +11,18 @@ export type {
   Schema,
 } from './components/DynamicNode/type';
 export { default as LineChart } from './components/LineChart';
+export { default as MeshChart } from './components/MeshChart';
 export { default as OrganizationChart } from './components/OrganizationChart';
 export { default as PrimaryButton } from './components/PrimaryButton';
 export { default as SpriteAnimation } from './components/SpriteAnimation';
+export { default as StructureChart } from './components/StructureChart';
 export { default as TextForBg } from './components/TextForBg';
 export { default as WangEditor } from './components/WangEditor';
 /**
  * 工具库
  */
 
-export { generateRandomString, getUUID } from './utils/chart';
+export { generateRandomString, getUUID, linefeed } from './utils/chart';
 export { default as formatTime } from './utils/formatTime';
 export {
   findNode,

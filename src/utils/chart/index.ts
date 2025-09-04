@@ -22,5 +22,16 @@ function getUUID(): string {
   });
   return uuid;
 }
+/*
+ * 将字符串按每行 len 的长度添加换行符
+ * @param str
+ * @param len
+ * @returns
+ */
+function linefeed(str: string, len: number): string {
+  const text = str.replace(/\n/g, '');
+  const reg = new RegExp(`(.{${len}})`, 'g');
+  return ('' + text).replace(reg, '$1\n');
+}
 
-export { generateRandomString, getUUID };
+export { generateRandomString, getUUID, linefeed };
